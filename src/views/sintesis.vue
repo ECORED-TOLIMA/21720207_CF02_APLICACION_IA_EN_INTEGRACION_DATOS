@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
+    p Este componente formativo aborda el uso estratégico de la inteligencia artificial para la integración y el análisis de datos, explorando desde sus principios fundamentales hasta sus aplicaciones en la vida cotidiana y la industria. Profundiza en herramientas generativas, el diseño de <em>prompts</em> efectivos y consideraciones éticas en el modelamiento. Además, presenta técnicas de preparación, limpieza e integración de datos, junto con la aplicación de la estadística descriptiva como soporte para la calidad y la toma de decisiones. Finalmente, introduce el aprendizaje automático, sus algoritmos, herramientas de analítica y métodos de validación, brindando una visión integral para resolver problemas reales mediante soluciones basadas en datos.
     
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Texto alternativo: En la síntesis se presenta un mapa conceptual que organiza los temas principales del componente formativo, distribuidos en seis ejes: fundamentos de la inteligencia artificial, herramientas generativas, interacción con modelos, preparación de datos, estadística aplicada y aprendizaje automático. Cada eje describe subtemas clave y sus relaciones para facilitar la comprensión integral del contenido.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
