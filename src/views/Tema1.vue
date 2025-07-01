@@ -27,7 +27,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
             LineaTiempoD.color-acento-botones.especial
-              .row(numero="1" titulo="Exactitud")
+              .row(numero="1" titulo="Percepción de patrones")
                 .col-12.mb-4.mb-md-0
                   p.mb-0 Capacidad para identificar estructuras o regularidades dentro de los datos.
 
@@ -52,7 +52,7 @@
                   p.mb-0 Facultad para comunicarse con usuarios o sistemas y ajustarse dinámicamente a nuevas condiciones o datos.
           .col-lg-5.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/tema1/img02.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/tema1/img02.svg', alt='Imagen decorativa')
 
         p.mb-0(data-aos="fade-down") Estos principios permiten que los sistemas de inteligencia artificial se integren en diversos sectores, optimizando procesos, mejorando la toma de decisiones y facilitando soluciones innovadoras basadas en datos.
 
@@ -71,23 +71,23 @@
               ol.lista-ol--cuadro
                 li.mb-3 
                   .lista-ol--cuadro__vineta.v--green
-                    span 1.
+                    span.text-bold 1
                   p.mb-0 Asistentes virtuales como Siri, Alexa o Google Assistant, que interpretan comandos de voz para realizar tareas como enviar mensajes, buscar información o controlar dispositivos inteligentes.
                 li.mb-3 
                   .lista-ol--cuadro__vineta.v--green
-                    span 2.
+                    span.text-bold 2
                   p.mb-0 Sistemas de recomendación utilizados por plataformas como Netflix, Spotify o Amazon, que analizan el comportamiento del usuario para sugerir películas, canciones o productos personalizados.
                 li.mb-3 
                   .lista-ol--cuadro__vineta.v--green
-                    span 3.
+                    span.text-bold 3
                   p.mb-0 Traducción automática y corrección gramatical, integradas en herramientas como Google Translate o los editores de texto, que mejoran la comunicación multilingüe.
                 li.mb-3 
                   .lista-ol--cuadro__vineta.v--green
-                    span 4.
+                    span.text-bold 4
                   p.mb-0 Aplicaciones de navegación y movilidad, como Waze o Google Maps, que predicen rutas óptimas y tiempos de llegada en tiempo real.
                 li.mb-0 
                   .lista-ol--cuadro__vineta.v--green
-                    span 5.
+                    span.text-bold 5
                   p.mb-0 Reconocimiento facial y biométrico, usado para desbloquear dispositivos, verificar identidades o autorizar transacciones.
           .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")

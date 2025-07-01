@@ -103,37 +103,63 @@
         .p-2
           h3.mb-0.ms-3 a. - Algoritmos de aprendizaje supervisado
 
-    .row.justify-content-center.align-items-center(data-aos="flip-up")
-      .col-lg-10.col-12.mb-0
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-7.col-12.mb-5.mb-md-0.order-lg-1.order-2.mb-lg-0
-            LineaTiempoD.color-acento-botones.especial
-              .row(numero="1" titulo="Regresión lineal")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Se utiliza para predecir valores numéricos continuos a partir de una o más variables independientes. Es uno de los modelos más sencillos y útiles para establecer relaciones lineales entre variables.
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-lg-8.col-12.mb-md-0.order-lg-1.order-1
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C01")
+          .row(titulo="Regresión lineal")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Se utiliza para predecir valores numéricos continuos a partir de una o más variables independientes. Es uno de los modelos más sencillos y útiles para establecer relaciones lineales entre variables.
+          .row(titulo="Regresión logística")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Ideal para problemas de clasificación binaria (sí/no, verdadero/falso), predice la probabilidad de que una observación pertenezca a una clase específica.
+          .row(titulo="Árboles de decisión")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Modelan decisiones mediante una estructura jerárquica en forma de árbol. Son fáciles de interpretar y útiles para tareas de clasificación y regresión.
+          .row(titulo="Bosques aleatorios (<em>random forest</em>)")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Conforman un conjunto de árboles de decisión que trabajan en conjunto (ensamble). Ofrecen alta precisión, robustez y resistencia al sobreajuste.
+          .row(titulo="Máquinas de soporte vectorial (<em>Support Vector Machines</em> - SVM)")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Son eficaces en espacios de alta dimensión y para problemas donde las clases no son fácilmente separables. Utilizan hiperplanos para dividir los datos.
+          .row(titulo="K-Vecinos más cercanos (<em>K-Nearest Neighbors</em> - KNN)")
+            .col-12.mb-0.mb-md-0
+              p.mb-0 Clasifica una nueva observación con base en la mayoría de las clases de sus vecinos más próximos. Es simple, pero sensible a la escala y a los valores atípicos.
+      .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/tema6/img08.png', alt='Imagen decorativa')    
+    
+    
+    //- .row.justify-content-center.align-items-center(data-aos="flip-up")
+    //-   .col-lg-10.col-12.mb-0
+    //-     .row.justify-content-center.align-items-center.mb-5
+    //-       .col-lg-7.col-12.mb-5.mb-md-0.order-lg-1.order-2.mb-lg-0
+    //-         LineaTiempoD.color-acento-botones.especial
+    //-           .row(numero="1" titulo="Regresión lineal")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Se utiliza para predecir valores numéricos continuos a partir de una o más variables independientes. Es uno de los modelos más sencillos y útiles para establecer relaciones lineales entre variables.
 
-              .row(numero="2" titulo="Regresión logística")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Ideal para problemas de clasificación binaria (sí/no, verdadero/falso), predice la probabilidad de que una observación pertenezca a una clase específica.
+    //-           .row(numero="2" titulo="Regresión logística")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Ideal para problemas de clasificación binaria (sí/no, verdadero/falso), predice la probabilidad de que una observación pertenezca a una clase específica.
 
-              .row(numero="3" titulo="Árboles de decisión")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Modelan decisiones mediante una estructura jerárquica en forma de árbol. Son fáciles de interpretar y útiles para tareas de clasificación y regresión.
+    //-           .row(numero="3" titulo="Árboles de decisión")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Modelan decisiones mediante una estructura jerárquica en forma de árbol. Son fáciles de interpretar y útiles para tareas de clasificación y regresión.
 
-              .row(numero="4" titulo="Bosques aleatorios (<em>random forest</em>)")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Conforman un conjunto de árboles de decisión que trabajan en conjunto (ensamble). Ofrecen alta precisión, robustez y resistencia al sobreajuste.
+    //-           .row(numero="4" titulo="Bosques aleatorios (<em>random forest</em>)")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Conforman un conjunto de árboles de decisión que trabajan en conjunto (ensamble). Ofrecen alta precisión, robustez y resistencia al sobreajuste.
 
-              .row(numero="5" titulo="Máquinas de soporte vectorial (<em>Support Vector Machines</em> - SVM)")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Son eficaces en espacios de alta dimensión y para problemas donde las clases no son fácilmente separables. Utilizan hiperplanos para dividir los datos.
+    //-           .row(numero="5" titulo="Máquinas de soporte vectorial (<em>Support Vector Machines</em> - SVM)")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Son eficaces en espacios de alta dimensión y para problemas donde las clases no son fácilmente separables. Utilizan hiperplanos para dividir los datos.
               
-              .row(numero="6" titulo="K-Vecinos más cercanos (<em>K-Nearest Neighbors</em> - KNN)")
-                .col-12.mb-4.mb-md-0
-                  p.mb-0 Clasifica una nueva observación con base en la mayoría de las clases de sus vecinos más próximos. Es simple, pero sensible a la escala y a los valores atípicos.
-          .col-lg-5.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/tema6/img08.png', alt='Imagen decorativa')
+    //-           .row(numero="6" titulo="K-Vecinos más cercanos (<em>K-Nearest Neighbors</em> - KNN)")
+    //-             .col-12.mb-4.mb-md-0
+    //-               p.mb-0 Clasifica una nueva observación con base en la mayoría de las clases de sus vecinos más próximos. Es simple, pero sensible a la escala y a los valores atípicos.
+    //-       .col-lg-5.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+    //-         figure
+    //-           img(src='@/assets/curso/tema6/img08.png', alt='Imagen decorativa')
 
     .row.align-items-center.mb-5(data-aos="flip-up")
       .col-auto.pe-0(style="z-index:2")
@@ -146,7 +172,7 @@
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col
         .tarjeta--container.row.mb-5
-          .col-xl.col-md-4.tarjeta.tarjeta--C02.p-5
+          .col-xl.col-sm-6.tarjeta.tarjeta--C02.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure
@@ -155,7 +181,7 @@
             h4.text-center K-means
             p.mb-0 Algoritmo de <em>clustering</em> que agrupa datos en k clústeres (grupos) con base en su similitud. Es ampliamente utilizado por su simplicidad y rapidez.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C03.p-5
+          .col-xl.col-sm-6.tarjeta.tarjeta--C03.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure
@@ -165,7 +191,7 @@
             p.mb-0 Construye una jerarquía de clústeres utilizando un enfoque ascendente o descendente. Permite visualizar la relación entre grupos mediante dendrogramas.
 
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C05.p-5
+          .col-xl.col-sm-6.tarjeta.tarjeta--C05.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-6
                 figure
@@ -219,15 +245,15 @@
               ol.lista-ol--cuadro
                 li.mb-4 
                   .lista-ol--cuadro__vineta.v--green
-                    span 1.
+                    span.text-bold 1
                   p.mb-0 Perceptrón multicapa (MLP): base de las redes neuronales profundas, puede modelar relaciones no lineales y resolver problemas complejos de predicción.
                 li.mb-4 
                   .lista-ol--cuadro__vineta.v--green
-                    span 2.
+                    span.text-bold 2
                   p.mb-0 Redes neuronales convolucionales (CNN): diseñadas para el análisis de imágenes, estas redes detectan patrones espaciales como bordes, formas o texturas.
                 li.mb-4 
                   .lista-ol--cuadro__vineta.v--green
-                    span 3.
+                    span.text-bold 3
                   p.mb-0 Redes neuronales recurrentes (RNN): eficaces para procesar secuencias de datos como texto o series temporales, ya que retienen información previa a lo largo del tiempo.
           .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
@@ -404,7 +430,7 @@
     .row.justify-content-center
       .col-lg-10.col-12
         .row.justify-content-center.tarjeta.tarjeta--C04.p-4.mb-5(data-aos="flip-up")
-          .col-lg-9.col-12.order-lg-1.order-2
+          .col-lg-8.col-12.order-lg-1.order-2
             ul.lista-ul.mb-0
               li.mb-4
                 i.lista-ul__vineta
@@ -418,11 +444,11 @@
               li.mb-0
                 i.lista-ul__vineta
                 p.mb-0 Gobierno de datos que incluye políticas de seguridad, privacidad y cumplimiento normativo.
-          .col-lg-3.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
+          .col-lg-4.col-md-7.col-12.mb-3.order-lg-2.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
-                  img(src='@/assets/curso/tema6/img29.png', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema6/img29.svg', alt='Imagen decorativa')
 
     .row.justify-content-center
       .col-lg-10.col-12

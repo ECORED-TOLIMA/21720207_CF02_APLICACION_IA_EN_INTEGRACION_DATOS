@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img01.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La Inteligencia Artificial (IA) se refiere a la capacidad de los sistemas computacionales para realizar tareas que requieren inteligencia humana, como el aprendizaje, el razonamiento y la toma de decisiones. En el contexto del análisis e integración de datos, la IA permite procesar grandes volúmenes de información de forma eficiente, automatizar procesos complejos y generar conocimientos útiles para diferentes sectores. Su aplicación transforma industrias, optimiza operaciones y mejora la experiencia del usuario mediante sistemas inteligentes adaptativos.
+        p.mb-0 Las herramientas de inteligencia artificial generativas son capaces de entender patrones complejos en los datos y de replicarlos o modificarlos para generar resultados que no existían previamente, lo que las convierte en un recurso invaluable para múltiples industrias, desde la creatividad y el diseño hasta la ingeniería y la investigación científica. El desarrollo de estas herramientas ha abierto un abanico de posibilidades que transforman radicalmente la forma en que se producen y consumen contenidos, facilitando procesos que antes eran exclusivamente manuales y demandaban largos tiempos de elaboración.
         br
 
     separador
@@ -88,7 +88,7 @@
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
-                  img(src='@/assets/curso/tema2/img07.png', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema2/img07.svg', alt='Imagen decorativa')
 
     p.mb-0(data-aos="fade-down") En resumen, mientras que la IA descriptiva responde a preguntas sobre lo que ya existe, la IA generativa propone nuevas creaciones y posibilidades a partir de la información aprendida. Ambas formas de inteligencia artificial son complementarias y muchas aplicaciones combinan ambas para ofrecer soluciones más completas y sofisticadas.
 
@@ -104,7 +104,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Industria creativa
             p En el ámbito del diseño gráfico, la publicidad y la producción audiovisual, la IA generativa permite crear imágenes, videos y contenidos multimedia personalizados de forma rápida y eficiente. Por ejemplo, diseñadores pueden utilizar estas herramientas para generar propuestas visuales, bocetos o efectos especiales, acelerando el proceso creativo y reduciendo costos.
-          .col-lg-6.order-lg-2.order-1
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/tema2/img08.jpg', alt='Imagen decorativa')
 
@@ -112,7 +112,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Generación de texto 
             p En el campo del periodismo, la redacción de contenidos y la atención al cliente, sistemas como los modelos de lenguaje permiten crear artículos, resúmenes, correos electrónicos y respuestas automáticas coherentes y adaptadas al contexto. Esto facilita la producción masiva de información y mejora la interacción con usuarios en plataformas digitales.
-          .col-lg-6.order-lg-2.order-1
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/tema2/img09.jpg', alt='Imagen decorativa')
 
@@ -120,7 +120,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Educación
             p Se utilizan para desarrollar materiales educativos personalizados, simulaciones y evaluaciones automatizadas, ayudando a adaptar el aprendizaje a las necesidades específicas de cada estudiante y mejorando la eficiencia del proceso formativo.
-          .col-lg-6.order-lg-2.order-1
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/tema2/img10.jpg', alt='Imagen decorativa')
 
@@ -128,7 +128,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Investigación científica
             p La IA generativa colabora en la generación de hipótesis, diseño de experimentos y síntesis de resultados, acelerando la producción de conocimiento en campos como la biomedicina, la química y la ingeniería.
-          .col-lg-6.order-lg-2.order-1
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/tema2/img11.jpg', alt='Imagen decorativa')
 
@@ -136,7 +136,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Moda y diseño de productos
             p Permite la creación de prototipos virtuales y colecciones de moda innovadoras, anticipando tendencias y personalizando ofertas según preferencias de los consumidores.
-          .col-lg-6.order-lg-2.order-1
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/tema2/img12.jpg', alt='Imagen decorativa')
 
@@ -144,7 +144,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Videojuegos y entretenimiento
             p Facilita la generación de escenarios, personajes, diálogos y música dinámica que se adaptan a las decisiones y estilo de juego de cada usuario, mejorando la experiencia interactiva.
-          .col-lg-6.order-lg-2.order-1
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/tema2/img13.jpg', alt='Imagen decorativa')
 

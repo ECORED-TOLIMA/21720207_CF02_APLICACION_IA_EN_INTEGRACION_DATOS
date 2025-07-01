@@ -32,9 +32,9 @@
               .row.justify-content-center(data-aos="flip-up")
                 .col
                   figure
-                    img(src='@/assets/curso/tema3/img02.png', alt='Imagen decorativa')
+                    img(src='@/assets/curso/tema3/img02.svg', alt='Imagen decorativa')
 
-          p.mb-0(data-aos="fade-down") Para lograr interacciones eficaces con modelos generativos, es importante tener en cuenta ciertos principios de <em>prompting</em> que ayudan a estructurar adecuadamente las instrucciones:
+          p.mb-0(data-aos="fade-down") Para lograr interacciones eficaces con modelos generativos, es importante tener en cuenta ciertos <b>principios de <em>prompting</em></b> que ayudan a estructurar adecuadamente las instrucciones:
 
     .row.justify-content-center.align-items-center(data-aos="flip-up")
       .col-lg-10.col-12.mb-0
@@ -149,7 +149,7 @@
                 p.mb-0 Escribe los pasos de una receta en formato de lista numerada.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/tema3/img08.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema3/img07.jpg', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-6.order-lg-1.order-2
@@ -159,7 +159,7 @@
                 p.mb-0 Actúa como un nutricionista y sugiere un plan alimenticio para un adolescente deportista.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/tema3/img09.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema3/img08.jpg', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-6.order-lg-1.order-2
@@ -169,7 +169,7 @@
                 p.mb-0 Resume el siguiente texto en 100 palabras usando un lenguaje accesible para personas no expertas.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/tema3/img10.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema3/img09.jpg', alt='Imagen decorativa')
 
           .row.justify-content-center.p-4(titulo=" ")
             .col-lg-6.order-lg-1.order-2
@@ -179,7 +179,7 @@
                 p.mb-0 “Más claro”, “Hazlo más técnico”, “Amplía la segunda parte”.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/tema3/img07.jpg', alt='Imagen decorativa')
+                img(src='@/assets/curso/tema3/img10.jpg', alt='Imagen decorativa')
 
     
     .row.justify-content-center.mb-0

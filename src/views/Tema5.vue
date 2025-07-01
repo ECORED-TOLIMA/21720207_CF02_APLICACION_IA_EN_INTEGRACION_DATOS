@@ -37,7 +37,7 @@
               h5.t1.mb-3 Nominal
               h5.t2.mb-2 Nominal
               p Clasifica datos sin un orden específico. 
-              p <b>Ejemplo</b>: Género, tipo de producto, y país de origen.
+              p <b>Ejemplo</b>: género, tipo de producto, y país de origen.
 
         .col-xl-3.col-lg-6.col-md-6.col-12.mb-xl-0
           .crd_hover_txt.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
@@ -49,7 +49,7 @@
               h5.t1.mb-3 Ordinal
               h5.t2.mb-2 Ordinal
               p Clasifica datos con un orden jerárquico, pero sin una distancia fija entre valores.
-              p <b>Ejemplo</b>: Niveles de satisfacción (bajo, medio y alto).
+              p <b>Ejemplo</b>: niveles de satisfacción (bajo, medio y alto).
 
         .col-xl-3.col-lg-6.col-md-6.col-12.mb-xl-0
           .crd_hover_txt.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
@@ -61,7 +61,7 @@
               h5.t1.mb-3 De intervalo
               h5.t2.mb-2 De intervalo
               p Tiene un orden y distancias iguales entre valores, pero sin un cero absoluto.
-              p <b>Ejemplo</b>: Temperatura en grados Celsius.
+              p <b>Ejemplo</b>: temperatura en grados Celsius.
 
         .col-xl-3.col-lg-6.col-md-6.col-12.mb-xl-0
           .crd_hover_txt.mb-4(data-aos="flip-left")(@mouseover="mostrarIndicador = true")
@@ -73,7 +73,7 @@
               h5.t1.mb-3 De razón 
               h5.t2.mb-2 De razón 
               p Posee un orden, intervalos iguales y un cero absoluto.
-              p <b>Ejemplo</b>: Ingresos, edad y cantidad de productos vendidos.
+              p <b>Ejemplo</b>: ingresos, edad y cantidad de productos vendidos.
     
     .row.justify-content-center
       .col-lg-10.col-12

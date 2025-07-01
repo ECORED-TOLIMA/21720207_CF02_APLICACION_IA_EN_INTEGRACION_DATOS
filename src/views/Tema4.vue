@@ -29,7 +29,7 @@
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
-                  img(src='@/assets/curso/tema4/img02.png', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema4/img02.svg', alt='Imagen decorativa')
 
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -136,7 +136,7 @@
         .row
           .col-lg-6.col-12
             .row.justify-content-center
-              .col-lg-auto.col-4.px-0.mb-4(data-aos="flip-up")
+              .col-lg-auto.col-md-2.col-3.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C03.p-4.h-100
                   img.w-100.my-auto(src='@/assets/curso/tema4/img12.svg' alt="Imagen decorativa")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
@@ -145,7 +145,7 @@
 
           .col-lg-6.col-12
             .row.justify-content-center
-              .col-lg-auto.col-4.px-0.mb-4(data-aos="flip-up")
+              .col-lg-auto.col-md-2.col-3.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C03.p-4.h-100
                   img.w-100.my-auto(src='@/assets/curso/tema4/img13.svg' alt="Imagen decorativa")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
@@ -154,7 +154,7 @@
 
           .col-lg-6.col-12
             .row.justify-content-center
-              .col-lg-auto.col-4.px-0.mb-4(data-aos="flip-up")
+              .col-lg-auto.col-md-2.col-3.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C03.p-4.h-100
                   img.w-100.my-auto(src='@/assets/curso/tema4/img14.svg' alt="Imagen decorativa")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
@@ -163,7 +163,7 @@
 
           .col-lg-6.col-12
             .row.justify-content-center
-              .col-lg-auto.col-4.px-0.mb-4(data-aos="flip-up")
+              .col-lg-auto.col-md-2.col-3.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C03.p-4.h-100
                   img.w-100.my-auto(src='@/assets/curso/tema4/img15.svg' alt="Imagen decorativa")
               .col-lg-8.col-8.px-0.mb-4(data-aos="fade-down")
@@ -178,7 +178,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
             h4 Identificación de entidades y atributos relevantes
             p Se define qué objetos o conceptos del negocio deben ser representados (clientes, productos, transacciones, usuarios) y cuáles son sus características principales (nombre, fecha, valor, estado, etc.).
-          .col-lg-6.order-lg-1.order-1
+          .col-lg-6.order-lg-1.order-1.mb-3
             figure
               img(src='@/assets/curso/tema4/img16.jpg', alt='Imagen decorativa')
 
@@ -186,7 +186,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
             h4 Relaciones entre entidades
             p Se establece cómo se vinculan los elementos. Por ejemplo, un cliente puede tener muchas compras, pero una compra solo pertenece a un cliente. Estas relaciones se clasifican como uno a uno, uno a muchos o muchos a muchos.
-          .col-lg-6.order-lg-1.order-1
+          .col-lg-6.order-lg-1.order-1.mb-3
             figure
               img(src='@/assets/curso/tema4/img17.jpg', alt='Imagen decorativa')
 
@@ -194,7 +194,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
             h4 Definición de reglas de integridad
             p Se incluyen condiciones como: “no puede haber una factura sin cliente asociado”, “el valor del descuento no puede superar el valor total del producto” o “un pedido no puede tener una fecha de entrega anterior a la de creación”.
-          .col-lg-6.order-lg-1.order-1
+          .col-lg-6.order-lg-1.order-1.mb-3
             figure
               img(src='@/assets/curso/tema4/img18.jpg', alt='Imagen decorativa')
 
@@ -202,7 +202,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
             h4 Establecimiento de claves primarias y foráneas
             p Las claves primarias identifican de forma única cada registro, mientras que las foráneas permiten enlazar tablas relacionadas, respetando las reglas de negocio.
-          .col-lg-6.order-lg-1.order-1
+          .col-lg-6.order-lg-1.order-1.mb-3
             figure
               img(src='@/assets/curso/tema4/img19.jpg', alt='Imagen decorativa')
 
@@ -210,7 +210,7 @@
           .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
             h4 Normalización de datos
             p Se aplica para evitar redundancias, facilitar la actualización de la información y cumplir con las reglas lógicas del sistema. La normalización ayuda a descomponer los datos en varias tablas bien estructuradas.
-          .col-lg-6.order-lg-1.order-1
+          .col-lg-6.order-lg-1.order-1.mb-3
             figure
               img(src='@/assets/curso/tema4/img20.jpg', alt='Imagen decorativa')
 
@@ -227,7 +227,7 @@
               li.mb-0
                 i.lista-ul__vineta
                 p.mb-0 El modelo físico se implementa directamente en un sistema de gestión de bases de datos (SGBD), considerando aspectos como índices, particiones y rendimiento.
-          .col-lg-6.order-lg-1.order-1
+          .col-lg-6.order-lg-1.order-1.mb-3
             figure
               img(src='@/assets/curso/tema4/img21.jpg', alt='Imagen decorativa')
             
@@ -238,7 +238,7 @@
     .row.justify-content-center.cajon.C02.mb-5
       .col-lg-10.col-12
         .row.justify-content-center.p-4(data-aos="flip-up")
-          .col-lg-9.col-12.order-lg-2.order-2
+          .col-lg-8.col-12.order-lg-2.order-2
             h4 En una empresa de logística:
             ul.lista-ul.mb-0
               li.mb-3
@@ -250,11 +250,11 @@
               li.mb-3
                 i.lista-ul__vineta
                 p.mb-0 Estas reglas se traducen en validaciones automáticas dentro del sistema, previniendo errores como reportar entregas incompletas.
-          .col-lg-3.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
+          .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
-                  img(src='@/assets/curso/tema4/img22.png', alt='Imagen decorativa')
+                  img(src='@/assets/curso/tema4/img22.svg', alt='Imagen decorativa')
 
     p.mb-0(data-aos="fade-down") El modelamiento de datos efectivo y basado en reglas de negocio es clave para que los sistemas de inteligencia artificial operen sobre bases estructuradas y confiables. Esto impacta directamente en la calidad de los análisis, las predicciones, las recomendaciones automáticas y cualquier otra funcionalidad basada en datos.
 
