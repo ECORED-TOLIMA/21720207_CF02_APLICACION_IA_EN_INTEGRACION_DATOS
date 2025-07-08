@@ -93,7 +93,7 @@
                 ul.lista-ul.mb-0
                   li.mb-3
                     i.lista-ul__vineta
-                    p.mb-0 <b>Prompt inicial</b>: resume la Segunda Guerra Mundial.
+                    p.mb-0 <b><em>Prompt</em> inicial</b>: resume la Segunda Guerra Mundial.
                   li.mb-0
                     i.lista-ul__vineta
                     p.mb-0 <b>Iteración</b>: resume las causas principales de la Segunda Guerra Mundial en 5 frases para estudiantes de secundaria.
@@ -250,7 +250,7 @@
       .py-4.py-md-5(titulo="Generación de contenido en <em>marketing</em>" :icono="require('@/assets/curso/tema3/img13.svg')")
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-2.order-2
-            p Profesionales del <em>marketing</em> utilizan modelos generativos para redactar publicaciones, slogans o guiones publicitarios.
+            p Profesionales del <em>marketing</em> utilizan modelos generativos para redactar publicaciones, <em>slogans</em> o guiones publicitarios.
             p Un <em>prompt</em> como “Escribe un texto persuasivo para promocionar una bebida energética entre jóvenes de 18 a 25 años”, genera mensajes enfocados en un público específico.
           .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
             figure

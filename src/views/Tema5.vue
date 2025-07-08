@@ -255,7 +255,7 @@
           .col-lg-5.order-lg-2.order-2
             p Permiten identificar valores típicos dentro de un conjunto de datos y detectar sesgos o valores extremos. Por ejemplo, una media muy alejada de la mediana puede indicar la presencia de <em>outliers</em>.
 
-      .py-3.py-md-4(titulo="Medida de variabilidad (Rango, desviación estándar y varianza) ")
+      .py-3.py-md-4(titulo="Medida de variabilidad (rango, desviación estándar y varianza) ")
         .row.justify-content-center.p-4
           .col-lg-7.col-10.order-lg-1.order-1.mb-lg-0.mb-4
             figure(data-aos="fade-right")
@@ -269,7 +269,7 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema5/img22.jpg', alt='Imagen decorativa')
           .col-lg-5.order-lg-2.order-2
-            p Ayudan a entender si los datos están distribuidos de manera equilibrada o si existe inclinación hacia valores altos o bajos, los cual es crítico al definir umbrales y reglas de negocio.
+            p Ayudan a entender si los datos están distribuidos de manera equilibrada o si existe inclinación hacia valores altos o bajos, lo cual es crítico al definir umbrales y reglas de negocio.
 
     .row.justify-content-center
       .col-lg-10.col-12

@@ -365,7 +365,7 @@
           .bottomCircle01.mb-5
             figure
               img(src="@/assets/curso/tema6/img23.svg", alt="alt").img90.m-auto
-          h4.text-center <em>Tableau</em>
+          h4.text-center Tableau
           p.text-center.mb-5 Herramienta intuitiva de visualización y análisis visual. Es ampliamente utilizada por su capacidad de generar insights rápidamente.
 
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
@@ -415,10 +415,10 @@
           .row(titulo="K-means")
             .col-12.mb-0.mb-md-0
               p Divide el conjunto de datos en k grupos según la cercanía de los puntos a los centroides, los cuales se ajustan iterativamente. Es eficiente y fácil de implementar, aunque sensible a la selección de k y a los valores atípicos.
-          .row(titulo="DBSCAN (Density-Based Spatial <em>Clustering</em> of Applications with Noise)")
+          .row(titulo="DBSCAN (Density-Based Spatial Clustering of Applications with Noise)")
             .col-12.mb-0.mb-md-0
               p.mb-0 Agrupa datos en función de la densidad de puntos en una región, permitiendo descubrir clústeres de forma arbitraria y manejar mejor los valores atípicos.
-          .row(titulo="Hierarchical <em>Clustering</em>")
+          .row(titulo="Hierarchical Clustering")
             .col-12.mb-0.mb-md-0
               p.mb-3 Construye una jerarquía de clústeres que puede representarse como un dendrograma, útil cuando se desea una visión más estructurada de los datos.
       .col-lg-4.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block

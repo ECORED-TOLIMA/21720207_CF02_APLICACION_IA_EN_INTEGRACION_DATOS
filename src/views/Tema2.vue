@@ -37,7 +37,7 @@
         .row.justify-content-center.p-4
           .col-lg-4.order-lg-1.order-2
             h4 Aprendizaje profundo
-            p Utilizan arquitecturas de redes neuronales profundas, como modelos generativos adversariales (GANs), transformadores y autoencoders, que les permiten aprender representaciones complejas de los datos.
+            p Utilizan arquitecturas de redes neuronales profundas, como modelos generativos adversariales (GANs), transformadores y <em>autoencoders</em>, que les permiten aprender representaciones complejas de los datos.
           .col-lg-8.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema2/img03.jpg', alt='Imagen decorativa')
